@@ -276,6 +276,15 @@ nav.navbar.colored .navbar-nav .nav-link.active::after {
   background-color: var(--progress-fill-color);
   color: var(--light-writing-color);
 }
+.about .about-txt .about-links a:not([download]):hover{
+  background-color: var(--progress-fill-color);
+  color: var(--light-writing-color);
+
+}
+.about .about-txt .about-links a[download]:hover{
+  background-color:var(--light-writing-color) ;
+  color:  var(--progress-fill-color);
+}
 @media screen and (max-width: 991px) {
   .about .image {
     margin-bottom: 80px !important;
@@ -545,6 +554,10 @@ nav.navbar.colored .navbar-nav .nav-link.active::after {
   display: inline-block;
   margin-top: 15px;
   border-radius: 5px;
+}
+.contact form button:hover{
+  color: var(--progress-fill-color);
+  background-color: var(--light-writing-color);
 }
 /*----------------------------- end contact------------------------------- */
 
